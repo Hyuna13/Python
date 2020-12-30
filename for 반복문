@@ -1,0 +1,14 @@
+#FOR 반복문
+#전체 구구단
+for x in range(1 , 10):
+    for y in range(1, 10):
+        mul = x*y
+        print(str(x)+ "X" + str(y)+ "=" + str(mul))
+      
+#특정단만 출력
+
+def gugu(x):
+    for i in range(1,10):
+      mul = x * i
+      print(str(x) + "X" + str(i) + "=" + str(mul))
+gugu(?)
