@@ -1,0 +1,20 @@
+#while 반복문 - 조건만족하지않을때까지 반복
+#조건이 참일때 반복, 거짓일때 종료
+
+#홀수만
+num = 1
+while num <= 10:
+  print(num)
+  num = num + 2
+  
+#입력받아,제곱출력
+x = int(input())
+print(x*x)
+
+---># 계속,0이면종료
+x = 1
+while x !=0:
+   x = int(input())
+   print(x*x)
+
+
