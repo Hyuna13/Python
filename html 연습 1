@@ -1,0 +1,46 @@
+#영화소개
+#body: id사용, class사용, ul안에 li 순서없음, ol안에 li 순서있음
+#style: id 사용-->#지칭, class사용--->.
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<title>Tv series</title>
+	<link href="style.css" rel="stylesheet" type="text/css" />
+  <style>
+    body {background: ;}
+    h1 {color: rgb(39, 71, 176);}
+    p {color:purple;}
+  #actress {color: red;}
+  #episodes {color: green;}
+  .name{color: orange;}
+  .ep{color:darkblue;}
+  </style>
+</head>
+
+<body>
+	<h1>Why Women Kill</h1>
+
+	<p>A darkly comedic drama detailing the lives of three women living <br> in three different decades: a housewife in the 60s, a socialite in the 80s,<br> and a lawyer in 2019, each dealing with infidelity in their marriages.</p>
+
+    <h3 id="actress">Actress</h3>
+    <ul class="name">
+    <li>Lucy Liu</li>
+    <li>Ginnifer Goodwin</li>
+    <li>Kirby Howell-Baptiste</li>
+    </ul>
+
+    <h3 id="episodes">Episodes</h3>
+    <ol class="ep">
+    <li>Murder Means Never Having to Say You're Sorry</li>
+    <li>I'd Like to Kill Ya, but I Just Washed My Hair</li>
+    <li>I Killed Everyone He Did, 
+        but Backwards and in High Heels</li>
+    <li>You Had Me at Homicide</li>
+    <li>There's No Crying in Murder</li>
+    </ol>
+
+    <script src="script.js"></script>
+  </body>
+</html>
