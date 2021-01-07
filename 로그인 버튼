@@ -1,0 +1,37 @@
+#style 사용: background-color,width,height,color,text-align,background image..
+#html-body: div(),p,button,input type = "" ,
+<!DOCTYPE html>
+<html>
+ <head>
+	 <meta charset="utf-8">
+	 <meta name="viewport" content="width=device-width">
+	 <title>Hyuna Bae </title>
+	 <link href="style.css" rel="stylesheet" type="text/css" />
+	 <style>
+		.mytitle {
+			background-color: skyblue;
+			width: 300px;
+			height: 200px;
+			color: white;
+			text-align: center;
+			background-image: url("");
+		 }
+	 </style>
+ </head>
+
+<body>
+	<div class="mytitle">
+		<h1> 로그인 </h1>
+		<h5>아이디,비밀번호 입력해주세요</h5>
+	</div>
+	<div>
+		<p>
+			ID : <input type = "text"/>
+   </p>
+   <p>
+   PW: <input type = "text"/>
+   </p>
+   </div>
+   <button>로그인</button>
+  </body>
+</html>
