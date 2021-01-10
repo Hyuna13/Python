@@ -1,0 +1,27 @@
+#1000미만의 3과5의배수 합구하기
+
+total = 0
+for i in range(1,1000):
+  if i%3 ==0:
+    total = total + i <---누적
+    #3과5의 공배수고려--elif사용
+  elif i%5 ==0:
+    total = total + i
+
+print(total)
+
+#3 그리고/또는 5 의 배수 합
+total = 0
+for i in range(1,1000):
+  if i % 3 == 0 and i % 5 == 0 :
+    total = total + i
+
+print(total)
+
+total = 0
+for i in range(1,1000):
+  if i % 3 == 0 or i % 5 == 0 :
+    total = total + i
+
+print(total)
+
