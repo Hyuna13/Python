@@ -1,0 +1,12 @@
+# 게시물 페이징
+# m=게시물수, n=페이지당 최대게시물수
+
+def getTotalPage(m,n):
+  if m % n ==0 :
+    page m // n
+  else:
+    page = m//n + 1
+  return page
+
+page = getTotalPage(m,n)
+print(page)
