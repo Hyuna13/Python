@@ -1,0 +1,44 @@
+#제주도 소개
+# img src = "" alt = "" width = "" height = "" 이미지삽입
+# a href ="#~" ---- id = "~" 스크롤필요없이 이동
+# a href = "" 하이퍼링크
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<title>Jeju Olle Trail</title>
+	<link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+	<script src="script.js">
+
+	</script>
+	<h1>Jeju Olle Trail</h1>
+	<p>Jeju Olle Trail is a long-distance footpath on Jeju Island, an island off the south-west coast of South Korea.<br> The route mainly follows the coastline and consists of 21 connected numbered main routes, 5 sub-routes, and a short spur that connects to Jeju International Airport.<br> On average, the routes are 16km in length and in total amount to 422km. The exact length and locations change over time as trails are modified or re-routed.</p>
+    <hr>
+
+    <h2>History of Olle</h2>
+    <p>Jeju Olle Trail was founded by ex-journalist <strong><a href ="">Suh Myung-suk.</a></strong><br> She walked <b>Camino de Santiago</b> in <i>2006</i>, which is a <em>UNESCO World Heritage site.</em><br> Inspired from this experience, Suh Myung-suk founded the Jeju Olle Foundation with the investigation of the Jeju-Si, to develop the tourist path like Santiago Pilgrimage route, in South Korea.<br> Jeju Olle Foundation operates the program to develop the new routes for Jeju Olle Trail.<br> This program includes selecting the right paths to walk, connecting them to create courses, expanding the path's width, and removing obstacles.</p>
+    <hr>
+    <h2>Olle Routes</h2>
+    <p>
+      <img src = "jpg" alt="Jeju Olle Trail" width = "" height = ""><br>
+      <ul>
+      <li><a href = "#olle1">Siheung - Gwangchigi Olle</a>
+      <li>Gwangchigi - Onpyeong Olle
+      <li>Onpyeong - Pyoseon Olle
+      <li>Pyoseon - Namwon Olle
+      <li>Namwon - Soesokkak Olle
+      <li>Soesokkak - Jeju Olle Tourist Center Olle
+      <li>Jeju Olle Tourist Center - Wolpyeong Olle
+      </ul>
+    </p>
+    
+    <h3 id="olle1">Siheung - Gwangchigi Olle</h3>
+    <p>Jeju Olle’s first route connects Oreums to the ocean. The route starts near Siheung Elementary School and connects to an evergreen field, Malmi Oreum(small extinct volcano) and Al Oreum(small extinct volcano) with a panoramic view of Seongsan Ilchulbong(peak) and U-do Island.<br> This view, the green fields with Jeju’s signature black stone wall, resembles a patchwork of colorful cloth. Passing Jongdal-ri old salt flat and Siheung-ri coastal road and you will arrive at Sumapo Beach with an impressive view of Seongsan Ilchulbong(peak).<br> Finally, the color of the ocean and algae covered rocks at Gwangchigi Beach is simply stunning. </p>
+
+  </body>
+</html>
