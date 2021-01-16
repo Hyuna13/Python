@@ -1,0 +1,12 @@
+#일주일 유동인구
+a = [242,256,237,223,263,81,46]
+
+import matplotlib.pyplot as plt
+
+x_data = ['Mon','Tue','Wed','Thu','Fri','Sat','Sun'] #x축에 표시할 제목 리스트에저장
+plt.title("Floating Population Data(1week)",fontsize =16) #큰제목
+plt.xlabel("Days of the week", fontsize =12) #x축제목
+plt.ylabel("Floating Population", fontsize=12) #y축제목
+plt.scatter(x_data,a) #산점도
+plt.plot(x_data,a) #라인
+plt.show()
