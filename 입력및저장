@@ -1,0 +1,17 @@
+#python
+
+name = input()
+print(name,"hi")
+integer: 정수
+floating point:부동소수점
+float:실수
+
+type.1)정수를 입력받고싶을때
+a = input()
+b = input()
+print(int(a) + int(b)) <---정수로 변환
+
+type.2)실수를 입력받고싶을때
+a = input()
+b = input()
+print(float(a) + float(b)) <---실수로 변환
