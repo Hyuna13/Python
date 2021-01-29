@@ -1,0 +1,36 @@
+1)산술연산자
+기본: + , - , * , /
+정수나눗셈: //
+print(2//3) --->0
+나눗셈나머지: %
+print(2%3)  --->2
+
+2)비교연산자
+< , > , <= , >= 
+같다: == 
+같지않다: !=
+
+3)논리연산자
+
+and
+print(True and True)--->이것만 True
+print(True and False)
+print(Flase and True)
+print(False and False)
+
+or
+print(True or True)
+print(True or False)
+print(Flase or True)
+print(False or False)--->이것만 False
+
+not
+print(not True)--->False
+print(not False)--->True
+
+4)in 연산자
+
+in
+print('a' in 'abcd')--->True
+not in
+print('x' in 'abcd')--->False
