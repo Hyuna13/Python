@@ -1,0 +1,7 @@
+#1. import CSV
+#2. f = open('파일주소')
+#3. data = csv.reader(f)
+#4. for raw in data:
+        print(f)
+
+실습-->Hyuna13/AI
