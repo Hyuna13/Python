@@ -1,0 +1,8 @@
+#1 matplotlib 라이브러리 불러오기
+import matplotlib.pyplot as plt <--plt로 줄여부를것
+#2 그래프 종류선택, 속성설정
+plt.plot([])
+#3 그래프 보여주기
+plt.show()
+
+실습-->Hyuna13/AI
