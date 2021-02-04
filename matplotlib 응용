@@ -1,0 +1,14 @@
+#서울 최고기온 데이터 그래프로그리기
+import matplotlib.pyplot as plt
+import csv
+
+f = open('seoul_temp.csv')
+data = csv.reader(f)
+next(data)
+mx_temp = []
+for row in data:
+    if row[-1] != "" :
+       mx_temp.append(float(row[-1]))
+
+plt.plot(mx_temp)
+plt.show()
