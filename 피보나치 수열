@@ -1,0 +1,31 @@
+#피보나치수열
+#1,1,2,3,5,8,13,21,34,55,...
+#50개항까지 구하기
+
+#반복문사용
+
+previous = 0 #직전항
+current = 1 #현재항
+i = 1
+
+while i <= 50:
+      print(current)
+      temp = previous #임시보관
+      previous = current
+      current = current + temp #temp에 기존 previous저장
+      i += 1
+      
+혹은
+
+previous = 0
+current = 1
+i = 1
+
+while i <= 50:
+    print(current)
+    previous, current = current, current + previous #temp없이
+    i += 1
+
+      
+
+
