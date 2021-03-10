@@ -1,0 +1,7 @@
+#input사용
+
+x = int(input("계산할 초를 입력하세요."))
+minute = x//60
+second = x % 60
+print(x,"초를 계산하면",minute,"분",second,"초 입니다.")
+
