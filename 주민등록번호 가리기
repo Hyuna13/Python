@@ -1,0 +1,23 @@
+#뒷자리 번호4개만 *로 가리기
+
+def mask_security_number(security_number):
+        num_list = list(security_number) # security_number를 리스트로 변환
+        for i in range(len(num_list) - 4, len(num_list)):   # 마지막 네 값을 *로 대체
+            num_list[i] = '*'
+            
+        total_str = " "  # 리스트를 문자열로 복구
+        for i in range(len(num_list)):
+            total_str += num_list[i]
+        return total_str
+        
+or
+
+def mask_security_number(security_number):
+        return security_number[:-4] + '****'
+        
+print(mask_security_number("880720-1234567"))
+print(mask_security_number("8807201234567"))
+print(mask_security_number("930124-7654321"))
+print(mask_security_number("9301247654321"))
+print(mask_security_number("761214-2357111"))
+print(mask_security_number("7612142357111"))
