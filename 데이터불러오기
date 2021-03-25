@@ -1,0 +1,13 @@
+#네이버에서 영화랭킹순위 불러오기
+
+import requests
+import bs4
+
+url = "https://movie.naver.com/movie/sdb/rank/rmovie.nhn"
+req = requests.get(url)
+data =req.text
+soup = bs4.BeautifulSoup(data, 'html.parser')
+data = soup.find_all('div', class_='tit3')
+
+for i in data:
+    print(i.get_text().strip())
