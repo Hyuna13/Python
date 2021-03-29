@@ -1,0 +1,22 @@
+#기상청 날씨
+
+import requests
+
+url = "https://www.weather.go.kr/weather/forecast/mid-term-rss3.jsp?stnId=108"
+req = requests.get(url)
+data = req.text
+data = data.split('<body>')[1]
+data = data.split('</data>')[0]
+print(data)
+
+or
+
+import requests
+import bs4
+
+url = "https://www.weather.go.kr/weather/forecast/mid-term-rss3.jsp?stnId=108"
+req = requests.get(url)
+data = req.text
+
+data = bs4.BeautifulSoup(data, 'lxml')
+print(data.find('data'))
