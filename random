@@ -1,0 +1,18 @@
+import random
+
+correct = random.randint(1,20)
+trying = 0
+
+for trying in range(0, 5):
+    chance = 4 - trying
+    if chance == 0:
+        print("아쉽지만 정답은 {correct}였습니다.")
+        break
+    input_correct = int(input(f'기회가 총 {chance}번 남았습니다.  1-20 사이의 숫자를 맞혀보세요:'))
+    if correct > input_correct:
+        print(f'{input_correct}up')
+    elif correct < input_correct:
+        print(f'{input_correct}down')
+    elif correct == input_correct:
+        print(f'축하합니다. {trying + 1}번만에 숫자를 맞혔습니다')
+        break
