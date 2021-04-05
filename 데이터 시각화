@@ -1,0 +1,18 @@
+#연도별 온실가스 배출량
+
+import matplotlib.pyplot as plt
+
+figure = plt.figure()
+axes = figure.add_subplot(111)
+axes2 = axes.twinx()
+axes3 = axes.twinx()
+
+data = pd.read_csv('test_data.csv')
+x = data['년도']
+y = data['총배출량']
+y2 = data['순배출량']
+y3 = data['6. 폐기물']
+
+axes.bar(x,y)
+axes2.plot(x, y2, color='red')
+axes3.plot(x, y3, color='black')
