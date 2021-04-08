@@ -7,6 +7,7 @@ def linear_search(element, some_list):
         return None
 
 or
+
 def linear_search(element, some_list):
     for i in range(len(some_list)):
         if element == some_list[i]:
