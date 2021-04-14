@@ -1,0 +1,15 @@
+num1 = int(input("첫번째 숫자를 입력:"))
+num2 = int(input("두번째 숫자를 입력:"))
+num3 = int(input("세번째 숫자를 입력:"))
+mean = (num1+num2+num3)/3
+print(num1, num2, num3 , "의 평균은" ,mean, "입니다")
+
+name = input("이름:")
+age = int(input("나이:"))
+future = 2021 + (100-age)
+print(name,"씨는",future,"년에 100살")
+
+Pi = 3.14
+r = int(input("반지름을 입력하시오:"))
+size = r**2*Pi
+print("반지름이",r,"인 원의 넓이 =",size)
